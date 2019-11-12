@@ -89,7 +89,7 @@ class ThreeIdProvider {
       return
     }
     const response = {
-      'id': req.id,
+      id: req.id,
       'json-rpc': '2.0',
       result
     }
